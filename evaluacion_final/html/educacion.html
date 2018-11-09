@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Evaluacion Final</title>
+	<style>
+		table, td, th {    
+    		border: 1px solid #ddd;
+    		text-align: center;
+		}
+		table, div {border-collapse: collapse; width: 40%;}
+		th, td {padding: 15px;}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="img/logo.svg">
+	</header>
+
+	<article>
+		<h1>Hoja  de Vida   https://github.com/johanNavarro/evaluacion</h1>
+		
+		<h2>Datos Personales</h2>
+		<h3>Nombre: Daniel Briganty</h3>
+		<h3>Fecha de Nacimiento: 09-04-1987</h3>
+		<h3>Lugar de Nacimiento: Venezuela</h3>
+
+	</article>
+	<nav>
+	<a href="../index.html">
+		<svg height="30" width="200">
+  			<text x="0" y="15" fill="blue">Inicio</text>
+		</svg>
+	</a>
+	<a href="educacion.html">
+		<svg height="30" width="200">
+  			<text x="0" y="15" fill="blue">Educación</text>
+		</svg>
+	</a>
+	<a href="experiencia.html">
+		<svg height="30" width="200">
+  			<text x="0" y="15" fill="blue">Experiencia</text>
+		</svg>
+	</a>
+	</nav>
+
+	<article>
+		<h2>Educación</h2>
+		<table>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+			<tr>
+				<td>2004</td>
+				<td>U.E. Pedro Arnal</td>
+				<td>Caracas</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2007</td>
+				<td>(IBM-ACE – BÁSICO)</td>
+				<td>Caracas</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2008</td>
+				<td>(IBM-ACE – INTERMEDIO)</td>
+				<td>Caracas</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2008</td>
+				<td>Colegio Universitario de Caracas</td>
+				<td>Caracas</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2008</td>
+				<td>(IBM-ACE – AVANZADO)</td>
+				<td>Caracas</td>
+				<td>No</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<div>	
+			<form autocomplete="on" name="estudios">
+				<fieldset>
+					<legend>Agregar Estudios</legend>
+
+					<label for="anio">Año</label><br>
+					<select name="anio" autofocus required>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+						<option value="2026">2026</option>
+						<option value="2027">2027</option>
+						<option value="2028">2028</option>
+						<option value="2029">2029</option>
+						<option value="2030">2030</option>
+						<option value="2031">2031</option>
+						<option value="2032">2032</option>
+						<option value="2033">2033</option>
+						<option value="2034">2034</option>
+						<option value="2035">2035</option>
+						<option value="2036">2036</option>
+						<option value="2037">2037</option>
+						<option value="2038">2038</option>
+						<option value="2039">2039</option>
+						<option value="2040">2040</option>
+					</select>
+					<br><br>
+
+					<label for="institucion">Insitución</label><br>
+					<input type="text" name="institucion" required placeholder="Universidad de Chile">
+					<br><br>
+
+					<label for="lugar">Lugar</label><br>
+					<textarea name="lugar" rows="5" cols="30" required=""></textarea>
+					<br><br>
+
+					<input type="submit" name="enviar" value="enviar">
+				</fieldset>
+			</form>
+		</div>
+	</article>
+	<br>
+	<br>
+	<footer style="text-align:center;">
+			danielbriganty@gmail.com | Telf: +56 9 7650 0573 | Santiago-Chile
+
+	</footer>
+
+
+
+
+</body>
+</html>
